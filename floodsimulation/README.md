@@ -1,2 +1,4 @@
 # Overview of Simulation Code
-This file includes the simulation codes used for the simulation of floods. The core for the simulation is `ANUGA Hydro`(https://github.com/GeoscienceAustralia/anuga_core) which is a solver for Shallow Water Equation(SWE).
+This file includes the simulation codes used for the simulation of floods. The core for the simulation is `ANUGA Hydro`(https://github.com/GeoscienceAustralia/anuga_core) which is a solver for Shallow Water Equation(SWE). Because `ANUGA Hydro` is not developed based on Python 3.6, codes for simulation are written in Python 2.7 environment. 
+
+The simulation is based on the real topology of Austin, Texas. The GIS data, necessary polygons are saved in `GISdata&mesh`. `aw_small_project.py` defines the parameters used for simulation. `aw_small_river.csv` saves the information of polygon that contains the river in studied domain. `aw_small.msh` is the file that includes the mesh information(irregular triangle mesh). `aw_simu.ipynb` is the code that can be run for simulation.
