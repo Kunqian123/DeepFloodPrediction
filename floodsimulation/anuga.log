@@ -1,0 +1,7 @@
+2019-08-09 16:20:00,276 INFO           anuga.utilities.log:0   |Logfile is '.\anuga.log' with logging level of INFO, console logging level is CRITICAL
+2019-08-09 16:20:00,278 CRITICAL             geo_reference:169 |WARNING: False northing of 0.000000 specified.
+2019-08-09 16:20:00,280 CRITICAL             geo_reference:171 |Default false northing is 10000000.000000.
+2019-08-09 16:20:00,283 CRITICAL             geo_reference:172 |ANUGA does not correct for differences in False Northings.
+2019-08-09 16:20:00,286 CRITICAL             geo_reference:188 |WARNING: Units of METERS specified.
+2019-08-09 16:20:00,289 CRITICAL             geo_reference:189 |Default units is m.
+2019-08-09 16:20:00,290 CRITICAL             geo_reference:190 |ANUGA does not correct for differences in units.
